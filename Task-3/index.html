@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Temperature Converter</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1>Temperature Converter</h1>
+    <div class="converter">
+      <label for="temperature">Temperature:</label>
+      <input type="text" id="temperature" name="temperature" placeholder="Enter temperature">
+      <select id="unit">
+        <option value="celsius">Celsius</option>
+        <option value="fahrenheit">Fahrenheit</option>
+      </select>
+      <button onclick="convert()">Convert</button>
+    </div>
+    <div class="result" id="result"></div>
+    <script src="chi.js"></script>
+  </body>
+</html>

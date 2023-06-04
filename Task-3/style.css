@@ -1,0 +1,55 @@
+h1 {
+    text-align: center;
+    font-size: 36px;
+  }
+  body {
+    background-image: url("https://cdn.pixabay.com/photo/2016/05/05/02/37/sunset-1373171__480.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .converter {
+    margin: 20px auto;
+    max-width: 400px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .converter label {
+    margin-right: 10px;
+  }
+  
+  .converter input {
+    flex: 1;
+    padding: 5px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .converter select {
+    margin-left: 10px;
+    padding: 5px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .converter button {
+    margin-left: 10px;
+    padding: 5px 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .result {
+    text-align: center;
+    font-size: 24px;
+    margin-top: 20px;
+  }
+  
